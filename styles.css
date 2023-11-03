@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+  background-color: #f1f1f1; /* Light body background */
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #ffffff; /* White background for form container */
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+.heading {
+  color: #471869; /* Heading color */
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Description Styles */
+.description {
+  margin-bottom: 30px;
+}
+/* img */
+img{
+    display: block;
+    width: 100px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+/* Form Styles */
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registration-form button {
+  padding: 10px;
+  background-color: #471869; /* Button color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration-form button:hover {
+  background-color: #5f2d8e; /* Darker button color on hover */
+}
